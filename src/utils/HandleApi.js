@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const baseUrl = "https://backend-todo.netlify.app/";
+const baseUrl = "https://relieved-suit-tuna.cyclic.app/";
 
 const getAllToDo = (setToDo) => {
   axios.get(baseUrl).then(({ data }) => {
