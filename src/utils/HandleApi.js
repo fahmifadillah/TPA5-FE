@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const baseUrl = "https://relieved-suit-tuna.cyclic.app/";
+const baseUrl = "https://elegant-eel-purse.cyclic.app/";
 
 const getAllToDo = (setToDo) => {
   axios.get(baseUrl).then(({ data }) => {
