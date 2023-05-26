@@ -42,13 +42,42 @@ input {
   cursor: pointer;
 }
 
+.filters {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.filters button {
+  border: none;
+  background-color: transparent;
+  color: #5b5b5b;
+  padding: 0.25rem 0.75rem;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.filters button.active {
+  background-color: #000;
+  color: #fff;
+}
+
+.list {
+  margin-top: 1rem;
+}
+
 .todo {
   position: relative;
-  margin-top: 1rem;
-  background-color: #000;
+  margin-bottom: 0.5rem;
+  background-color: #00d188;
   color: #fff;
   padding: 1.5rem 3rem;
   border-radius: 5px;
+}
+
+.todo.completed {
+  text-decoration: line-through;
+  opacity: 0.7;
 }
 
 .icons {
